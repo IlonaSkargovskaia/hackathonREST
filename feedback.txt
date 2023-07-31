@@ -1,0 +1,22 @@
+Hi Ilona,
+
+I've had a look at your Django project and I'd like to share some feedback:
+
+- Your project structure and file organization are excellent. The directories and files are well named and logically organized. This clear layout really helps when someone else looks at your code. Keep it up!
+
+- Your code is generally quite easy to read, and it's obvious you've made an effort to adhere to PEP 8 standards. However, it's worth noting that having too much commented-out code can make the codebase a bit cluttered. Consider either removing these or explaining why they're left in there if they're important for understanding.
+
+- You have a good grasp of Django and Django REST Framework features. The ways you're using the features shows that you've really understood the frameworks well. 
+
+- Excellent job on the database modeling! The relationships are well defined and make sense logically.
+
+- The structure of your views and URLs are clear and well organized. You might want to consider using routers in Django REST Framework. They can provide a simpler and more consistent way of setting up your URLs.
+
+- In terms of error handling and validation, I noticed that you're not using `try-except` clauses. They're really useful for catching and handling errors to prevent your program from crashing. It would be great to see you handle more edge cases to make your project more robust.
+
+- Lastly, although your code is generally easy to follow, the project could benefit from more comprehensive documentation. Documenting not just the project as a whole but individual functions and classes as well would be really helpful. It makes it easier for others (and you in the future) to understand what each part of the code is doing. 
+
+Overall, you've done a solid job with this project. Keep learning and keep improving. Remember, coding is as much about making your project work as it is about making it understandable and easy to maintain for others and for you in the future. 
+
+Cheers,
+Yossi
